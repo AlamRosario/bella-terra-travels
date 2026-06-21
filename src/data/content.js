@@ -1,12 +1,12 @@
-const PHONE = '18097775050';
+const PHONE = '18295949060';
 
 export const waLink = (msg) =>
   `https://wa.me/${PHONE}?text=${encodeURIComponent(msg)}`;
 
 export const contactInfo = {
-  whatsapp: '+1 (809) 777-5050',
+  whatsapp: '+1 (829) 594-9060',
   whatsappRaw: PHONE,
-  email: 'info@bellaterratravels.com',
+  email: 'bellaterratravel01@gmail.com',
   address: 'Santo Domingo, República Dominicana',
   instagram: '#',
   facebook: '#',
@@ -17,94 +17,102 @@ export const services = [
     id: 1,
     icon: 'Building2',
     title: 'Resorts Todo Incluido',
-    text: 'Las mejores tarifas en resorts de Punta Cana, Puerto Plata, La Romana y más.',
+    text: 'Las mejores opciones de resorts all-inclusive en Punta Cana, Puerto Plata, La Romana y más destinos de RD.',
   },
   {
     id: 2,
-    icon: 'Globe',
-    title: 'Tours Internacionales',
-    text: 'Paquetes a México, Europa, el Caribe y los destinos más soñados del mundo.',
+    icon: 'Plane',
+    title: 'Boletos Aéreos',
+    text: 'Conseguimos los mejores precios en boletos aéreos nacionales e internacionales para tu destino.',
   },
   {
     id: 3,
-    icon: 'Car',
-    title: 'Transfers y Excursiones',
-    text: 'Traslados aeropuerto-hotel y excursiones locales con guías especializados.',
+    icon: 'Globe',
+    title: 'Tours Internacionales',
+    text: 'Paquetes completos a México, Cancún, Europa, Caribe y los destinos más soñados del mundo.',
   },
   {
     id: 4,
-    icon: 'Shield',
-    title: 'Seguro de Viaje',
-    text: 'Protege tu inversión con cobertura médica, de cancelación y equipaje.',
+    icon: 'Compass',
+    title: 'Excursiones',
+    text: 'Actividades y excursiones en los destinos más emocionantes de República Dominicana.',
   },
   {
     id: 5,
-    icon: 'FileText',
-    title: 'Asesoría de Visa',
-    text: 'Te orientamos en el proceso de solicitud para que viajes sin contratiempos.',
+    icon: 'Sun',
+    title: 'Daypass',
+    text: 'Acceso de un día a los mejores resorts de República Dominicana sin necesidad de hospedarte.',
   },
   {
     id: 6,
-    icon: 'Users',
-    title: 'Paquetes Familiares',
-    text: 'Experiencias diseñadas para que toda la familia disfrute al máximo.',
+    icon: 'Car',
+    title: 'Traslados',
+    text: 'Servicio de traslado aeropuerto-hotel y transporte terrestre en todo el país.',
   },
   {
     id: 7,
-    icon: 'Plane',
-    title: 'Reserva de Vuelos',
-    text: 'Encontramos las mejores tarifas aéreas nacionales e internacionales.',
-  },
-  {
-    id: 8,
-    icon: 'MapPin',
-    title: 'Turismo Receptivo',
-    text: 'Planes especiales para turistas que desean descubrir la República Dominicana.',
+    icon: 'Home',
+    title: 'Villas / Airbnb',
+    text: 'Selección de villas privadas y alquileres vacacionales para grupos y familias.',
   },
 ];
 
 export const offers = [
   {
     id: 1,
-    badge: 'OFERTA ESPECIAL',
-    hotel: 'Excellence Punta Cana',
-    location: 'Punta Cana, República Dominicana',
-    dates: 'Jul – Sep 2026',
-    duration: '4 noches',
+    badge: 'OFERTA',
+    hotel: 'PlayaBachata Resort',
+    location: 'Puerto Plata, República Dominicana',
+    dates: 'Jun – Ago 2026',
+    duration: '3 noches',
     persons: '2 personas',
-    includes: 'Todo incluido · Vuelos desde SDQ · Traslados',
-    price: 'Desde $1,250',
-    priceNote: 'por persona · doble ocupación',
+    includes: 'Todo incluido · Traslados desde SDQ',
+    price: 'RD$16,995',
+    priceNote: 'por persona · hab. doble',
     image:
-      'https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/29221468/pexels-photo-29221468.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
     id: 2,
     badge: 'MÁS VENDIDO',
-    hotel: 'Casa Marina Beach Resort',
-    location: 'Puerto Plata, República Dominicana',
-    dates: 'Ago – Oct 2026',
+    hotel: 'Hotel Royalton Splash',
+    location: 'Punta Cana, República Dominicana',
+    dates: 'Jun – Sep 2026',
     duration: '3 noches',
     persons: '2 personas',
-    includes: 'Todo incluido · Traslados desde SDQ',
-    price: 'Desde $890',
-    priceNote: 'por persona · doble ocupación',
+    includes: 'Todo incluido · Vuelos opcionales',
+    price: 'Desde US$135',
+    priceNote: 'por noche · por habitación',
     image:
-      'https://images.pexels.com/photos/2265876/pexels-photo-2265876.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/2646070/pexels-photo-2646070.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
     id: 3,
     badge: 'IDEAL FAMILIAS',
-    hotel: 'Majestic Elegance Punta Cana',
-    location: 'Punta Cana, República Dominicana',
-    dates: 'Sep – Nov 2026',
-    duration: '5 noches',
+    hotel: 'PlayaBachata Resort',
+    location: 'Puerto Plata, República Dominicana',
+    dates: 'Jul – Oct 2026',
+    duration: '4 noches',
     persons: 'Familia 4 pax',
-    includes: 'Todo incluido · Vuelos · Kids Club incluido',
-    price: 'Desde $3,200',
+    includes: 'Todo incluido · Traslados · Kids Club',
+    price: 'RD$20,764',
     priceNote: 'por familia (2 adultos + 2 niños)',
     image:
-      'https://images.pexels.com/photos/1320686/pexels-photo-1320686.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/11556613/pexels-photo-11556613.jpeg?auto=compress&cs=tinysrgb&w=800',
+  },
+  {
+    id: 4,
+    badge: 'LUJO',
+    hotel: 'Grand Palladium Punta Cana',
+    location: 'Punta Cana, República Dominicana',
+    dates: 'Jul – Nov 2026',
+    duration: '4 noches',
+    persons: '2 personas',
+    includes: 'Todo incluido · Butler service · 7 piscinas',
+    price: 'Desde USD$150',
+    priceNote: 'por noche · por habitación',
+    image:
+      'https://images.pexels.com/photos/14259595/pexels-photo-14259595.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
 ];
 
@@ -116,7 +124,7 @@ export const destinations = [
       'La Ciudad Colonial más antigua del Nuevo Mundo. Historia, gastronomía y vida nocturna en la vibrante capital dominicana.',
     highlights: ['Ciudad Colonial UNESCO', 'Malecón', 'Gastronomía', 'Vida nocturna'],
     image:
-      'https://images.pexels.com/photos/3601425/pexels-photo-3601425.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/5961909/pexels-photo-5961909.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
     id: 2,
@@ -125,7 +133,7 @@ export const destinations = [
       'Playas de arena blanca y aguas turquesas en el extremo oriental de la isla. El destino número uno del Caribe.',
     highlights: ['Playa Bávaro', 'Resorts 5 estrellas', 'Golf', 'Snorkel y buceo'],
     image:
-      'https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/2646070/pexels-photo-2646070.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
     id: 3,
@@ -134,7 +142,7 @@ export const destinations = [
       'Una joya escondida: playas vírgenes, cascadas imponentes y avistamiento de ballenas jorobadas (ene–mar).',
     highlights: ['Ballenas jorobadas', 'Las Terrenas', 'Cascada El Limón', 'Playa Rincón'],
     image:
-      'https://images.pexels.com/photos/4352127/pexels-photo-4352127.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/30160752/pexels-photo-30160752.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
     id: 4,
@@ -143,7 +151,7 @@ export const destinations = [
       'La Costa de Ámbar combina playa, montaña y cultura. Teleférico, Fuerte San Felipe y resorts todo incluido.',
     highlights: ['Teleférico', 'Playa Dorada', 'Fuerte San Felipe', 'Surf en Cabarete'],
     image:
-      'https://images.pexels.com/photos/2373582/pexels-photo-2373582.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/29221468/pexels-photo-29221468.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
     id: 5,
@@ -152,7 +160,7 @@ export const destinations = [
       'El corazón verde de la isla. Cascadas, ríos de montaña y bosques de pinos para el ecoturismo y la aventura.',
     highlights: ['Rafting', 'Cascada Jimenoa', 'Pico Duarte', 'Fresas y flores'],
     image:
-      'https://images.pexels.com/photos/2754200/pexels-photo-2754200.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/32027250/pexels-photo-32027250.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
 ];
 
@@ -176,34 +184,24 @@ export const howToBook = [
 
 export const benefits = [
   {
-    icon: 'ThumbsUp',
-    title: 'Precios transparentes',
-    text: 'Sin costos ocultos. El precio que cotizamos es exactamente lo que pagas.',
+    icon: 'UserCheck',
+    title: 'Atención personalizada',
+    text: 'Te asesoramos de forma personalizada para encontrar la opción perfecta según tu presupuesto y gustos.',
   },
   {
-    icon: 'Clock',
-    title: 'Atención rápida',
-    text: 'Respondemos por WhatsApp en menos de una hora, todos los días.',
-  },
-  {
-    icon: 'Star',
-    title: 'Años de experiencia',
-    text: 'Hemos ayudado a cientos de familias dominicanas a viajar sin estrés.',
-  },
-  {
-    icon: 'Heart',
-    title: 'Acompañamiento total',
-    text: 'Estamos contigo antes, durante y después de tu viaje.',
-  },
-  {
-    icon: 'CreditCard',
-    title: 'Facilidades de pago',
-    text: 'Planes de financiamiento para que el costo no sea un obstáculo.',
+    icon: 'Tag',
+    title: 'Mejores precios',
+    text: 'Accedemos a tarifas preferenciales y negociamos los mejores precios para ti.',
   },
   {
     icon: 'ShieldCheck',
-    title: 'Proveedores verificados',
-    text: 'Solo trabajamos con hoteles y aerolíneas de confianza y reputación comprobada.',
+    title: 'Confianza & seguridad',
+    text: 'Somos una agencia comprometida con la transparencia y la satisfacción total de nuestros clientes.',
+  },
+  {
+    icon: 'Award',
+    title: 'Experiencia local',
+    text: 'Años de experiencia en el mercado dominicano nos permiten conocer cada destino como la palma de la mano.',
   },
 ];
 
@@ -213,11 +211,11 @@ export const faqCategories = [
     faqs: [
       {
         q: '¿Cómo puedo hacer una reserva?',
-        a: 'Escríbenos por WhatsApp al +1 (809) 777-5050. Cuéntanos tus fechas y preferencias, y te enviamos opciones con precios claros en minutos.',
+        a: 'Escríbenos por WhatsApp al +1 (829) 594-9060. Cuéntanos tus fechas y preferencias, y te enviamos opciones con precios claros en minutos.',
       },
       {
         q: '¿Qué formas de pago aceptan?',
-        a: 'Aceptamos transferencias bancarias, tarjetas de crédito/débito y pagos en efectivo en nuestra oficina en Santo Domingo.',
+        a: 'Aceptamos transferencias bancarias, tarjetas de crédito/débito y pagos en efectivo. Contáctanos para coordinar el método más conveniente para ti.',
       },
       {
         q: '¿Puedo reservar con anticipación y pagar después?',

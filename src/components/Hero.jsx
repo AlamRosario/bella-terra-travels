@@ -1,13 +1,15 @@
 import { MessageCircle } from 'lucide-react';
-import heroImg from '../assets/hero.png';
 import { waLink } from '../data/content';
+
+const HERO_IMG =
+  'https://images.pexels.com/photos/11556613/pexels-photo-11556613.jpeg?auto=compress&cs=tinysrgb&w=1600';
 
 export default function Hero() {
   return (
     <section id="inicio" className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
       <img
-        src={heroImg}
-        alt="Bella Terra Travels Tours"
+        src={HERO_IMG}
+        alt="Resort en Punta Cana, República Dominicana"
         className="absolute inset-0 w-full h-full object-cover"
       />
       <div className="absolute inset-0 bg-navy/60" />
